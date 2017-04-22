@@ -1,4 +1,7 @@
-# test coverage for  [pdfkit (v0.8.0)](http://pdfkit.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-pdfkit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pdfkit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pdfkit.svg)](https://travis-ci.org/npmtest/node-npmtest-pdfkit)
+# npmtest-pdfkit
+
+#### basic test coverage for  [pdfkit (v0.8.0)](http://pdfkit.org/)  [![npm package](https://img.shields.io/npm/v/npmtest-pdfkit.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-pdfkit) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-pdfkit.svg)](https://travis-ci.org/npmtest/node-npmtest-pdfkit)
+
 #### A PDF generation library for Node.js
 
 [![NPM](https://nodei.co/npm/pdfkit.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/pdfkit)
@@ -97,7 +100,8 @@
         "postpublish": "make clean",
         "prepublish": "make js"
     },
-    "version": "0.8.0"
+    "version": "0.8.0",
+    "bin": {}
 }
 ```
 
